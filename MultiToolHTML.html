@@ -1,0 +1,70 @@
+<!--Laptop version of screen is 1000px, and phone is 600px. -->
+<!-- This is my first ever project I published. -->
+
+<script src="MultiToolJS.js"></script>
+<link rel="stylesheet" type="text/css" href="MultiToolCSS.css">
+<script src="jquery-3.3.1.min.js"></script>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+<!--<title id="SplashText">MultiTool: You Shouldn't See This</title> -->
+<h1 id="Title">Stopwatch!</h1>
+<!--<h3>This is a timer, Which comes with a start button, a stop button, and a reset button.</h3>-->
+<div id="StopwatchContent">
+  <p id="StopwatchVar"></p>
+  <div id="StopwatchButtons">
+    <button onclick="StopwatchStart()" id="StopwatchStart">Start Timer</button>
+    <button onclick="StopwatchStop()" id="StopwatchStop">Stop Timer</button>
+    <button onclick="StopwatchReset()" id="StopwatchReset">Reset Timer</button>
+  </div>
+</div>
+
+<div id="CountdownContent">
+  <p id="CountdownVar"></p>
+  <div id="CountdownButtons">
+    <button onclick="CountdownStart()" id="CountdownStart">Start Countdown</button>
+    <button onclick="CountdownStop()" id="CountdownStop">Stop Countdown</button>
+    <button onclick="CountdownReset()" id="CountdownReset">Reset Countdown</button>
+  </div>
+  <div id="CountdownTextbox">
+    <input id="CountdownBoxTime" type="number" value="3" />
+    <button type="submit" onclick="CountdownSetTime()">Set Time</button>
+  </div>
+  <div id="CountdownText">
+    <p id="CountdownEnd()" class="Alertbox"> The Coundown Has Ended! </p>
+  </div>
+</div>
+
+<div id="TallyContent">
+  <p id="TallyVar"></p>
+  <div id="TallyButtons">
+    <button onclick="TallyIncrease()" id="TallyIncrease">Increase Tally</button>
+    <button onclick="TallyDecrease()" id="TallyDecrease">Decrease Tally</button>
+    <button onclick="TallyReset()" id="TallyReset">Reset Tally</button>
+  </div>
+</div>
+
+<div id="CPSContent">
+  <p id="CPSVar"></p>
+  <div id="CPSButtons">
+    <button onclick="CPSClick()" id="CPSClick">Click Me!</button>
+    <button onclick="CPSStart()" id="CPSStart">Start CPS Test</button>
+    <button onclick="CPSReset()" id="CPSReset">Reset CPS Test</button>
+  </div>
+  <div id="CPSText">
+    <p id="CPSEnd" class="Alertbox"> Your CPS is: </p>
+  </div>
+</div>
+
+<!--
+<div class="Circle"></div>
+-->
+<div id="SwapToButtons">
+  <button onclick="ChangeToStopwatch()" id="SwapToStopwatch">Swap to stopwatch</button>
+  <button onclick="ChangeToCountdown()" id="SwapToCountdown">Swap to countdown</button>
+  <button onclick="ChangeToTally()" id="SwapToTally">Swap to tally</button>
+  <button onclick="ChangeToCPS()" id="SwapToCPS">Swap to CPS Test</button>
+</div>
+
+<p class="BottomRightCorner">Da Alp - 2018</p>

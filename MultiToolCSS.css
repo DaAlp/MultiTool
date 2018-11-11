@@ -1,0 +1,182 @@
+body {
+  background-color: #ce4c4c;
+  font-family: Cardo;
+  transition: background 2s linear;
+}
+
+#Title {
+  text-align: center;
+  font-size: 70px;
+}
+
+.Alertbox {
+  margin: 30px auto;
+  border: 3px groove green;
+  border-radius: 8px;
+  background: rgba(100, 100, 100, 0.5);
+  padding: 10px;
+  width: 60%;
+  height: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.Circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #4286f4;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  border: 1.5px groove #000000;
+  bottom: 20px;
+  left: 20px;
+}
+
+#StopwatchVar {
+  text-align: center;
+  font-size: 50px;
+}
+
+#StopwatchButtons {
+  display: flex;
+  justify-content: center;
+}
+
+#CountdownVar {
+  text-align: center;
+  font-size: 50px;
+}
+
+#CountdownButtons button {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+#CountdownButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#CountdownTextbox {
+  display: none;
+  text-align: center
+}
+
+#CountdownBoxTime {
+  Height: 50px;
+  Width: 200px;
+  font-size: 30px;
+}
+
+#TallyVar {
+  text-align: center;
+  font-size: 50px;
+}
+
+#TallyButtons {
+  display: flex;
+  justify-content: center;
+}
+
+#TallyDecrease {
+  height: 100px;
+}
+
+#CPSVar {
+  text-align: center;
+  font-size: 50px;
+}
+
+#CPSButtons {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#CPSClick {
+  display: flex;
+  width: 450px;
+  height: 150px;
+  font-size: 60px;
+}
+
+#CPSStart {
+  height: 100px;
+}
+
+#CPSReset {
+  height: 100px;
+}
+
+#SwapToButtons button {
+  /*
+	font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  justify-content: center;
+	*/
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#SwapToCountdown {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  /*
+	right: 210px;
+  */
+}
+
+#SwapToTally {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  /*
+	right: 410px;
+  */
+}
+
+#SwapToCPS {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  /*
+	right: 610px;
+	*/
+}
+
+#SwapToStopwatch {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  /*
+	right: 10px;
+	*/
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #a5a4a4;
+  font-size: 30px;
+  font-family: Cardo;
+}
+
+.BottomRightCorner {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
