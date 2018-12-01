@@ -1,31 +1,22 @@
 {
-  "name": "MultiTool",
-  "version": "0.1.0",
-  "description": "A very basic, but useful app containing a stopwatch, a countdown timer, a tally marker, and a clicks per second test.",
-  "engines": {
-    "node": "10.x"
-  },
-  "main": "index.js",
+  "name": "multitool",
+  "version": "1.0.0",
+  "description": "MultiTool is a project that is about making useful tools, like a stopwatch, a countdown timer, an Clicks-Per-Second timer, and a Tally marker. This project is in a very early development, so many bugs, problems, and errors may pop up.",
+  "main": "MultiToolJS.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
-  },
-  "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DaAlp/MultiTool.git"
+    "url": "git+https://github.com/DaAlp/MultiTool.git"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "MultiTool"
   ],
-  "license": "MIT"
+  "author": "Talonexo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaAlp/MultiTool/issues"
+  },
+  "homepage": "https://github.com/DaAlp/MultiTool#readme"
 }
