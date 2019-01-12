@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/Talonexo/MultiTool/issues"
   },
-  "homepage": "https://github.com/Talonexo/MultiTool#readme",
+  "homepage": '.',
   "engines": {
     "node": "10.13.0"
   }
